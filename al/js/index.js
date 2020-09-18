@@ -1,4 +1,3 @@
-//11111111111111111111111111111111111111111
 let app = new Vue({
 	el: "#app",
 	data: {
@@ -19,6 +18,9 @@ let app = new Vue({
 						this.inp += num;
 					}
 					this.obr();
+					if (this.vv == "Infinity"){
+						this.vv = "Error";
+					}
 				} else {
 					let inp = this.inp;
 					let n = inp[inp.length-1];
