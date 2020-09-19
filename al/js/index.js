@@ -10,7 +10,7 @@ let app = new Vue({
 			this.vv = "";
 		},
 		add: function(num){
-			if (this.inp.length <= 41){
+			if (this.inp.length <= 40){
 				if (num != "+" && num != "-" && num != "*" && num != "/"){
 					if (this.inp == "0"){
 						this.inp = num;
