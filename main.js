@@ -10,8 +10,6 @@ function createWindow() {
 		height: 535,
 		minHeight: 535,
 		minWidth: 450,
-		maxHeight: 535,
-		maxWidth: 450,
 		icon: __dirname + "/al/img/icon.png"
 	});
 
